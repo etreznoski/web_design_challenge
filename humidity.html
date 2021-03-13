@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Humidity</title>
+<title>Temperature</title>
     <link rel="stylesheet" href="/css_files/reset.css">
     <link rel="stylesheet" href="/css_files/bootstrap.css">
   </head>
@@ -47,59 +47,27 @@
 <!-- Intro text -->
 <div class="intro">
   <h1 class="display-3">Latitude vs Humidity</h1>
-  <p class="lead">The purpose if this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
-  <p class="lead">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked as included: teperature, cloudiness, wind speed, and humidity.</p>
-  <p class="lead">This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+  <p class="lead">As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude).</p>
+  <p class="lead">More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere.</p>
+  <p class="lead">This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
   <hr class="my-4">
 </div>
 <!-- end intro text -->
 <div class="container-fluid">
 
   <div class="row">
-    <div class="col-sx-6 col=sm-6">
-      <div class="card border-success mb-3" style="max-width: 30rem;">
-        <div class="card-header">Latitude vs Temperature</div>
+    <div class="col-sm-12 col=md-6">
+      <div class="card border-success mb-3" style="max-width: 60rem;">
+        <div class="card-header">Latitude vs Humidity</div>
         <div class="card-body">
         <a href="#">
-        <img src="/Resources/assets/images/Fig1.png" width=75% alt="latitude vs temp scatter plot">
+        <img src="/Resources/assets/images/Fig2.png" width=75% alt="latitude vs humidity scatter plot">
         </a>
         </div>
       </div>
-      </div>
-      <div class="col-sx-6 col=sm-6">
-        <div class="card border-success mb-3" style="max-width: 30rem;">
-          <div class="card-header">Latitude vs Humidity</div>
-          <div class="card-body">
-          <a href="#">
-          <img src="/Resources/assets/images/Fig2.png" width=75% alt="latitude vs humidity scatter plot">
-          </a>
-          </div>
-        </div>
       </div>
   </div>
 
-  <div class="row">
-    <div class="col-sx-6 col=sm-6">
-      <div class="card border-success mb-3" style="max-width: 30rem;">
-        <div class="card-header">Latitude vs Cloudiness</div>
-        <div class="card-body">
-        <a href="#">
-        <img src="/Resources/assets/images/Fig3.png" width=75% alt="latitude vs clouds scatter plot">
-        </a>
-        </div>
-      </div>
-      </div>
-      <div class="col-sx-6 col=sm-6">
-        <div class="card border-success mb-3" style="max-width: 30rem;">
-          <div class="card-header">Latitude vs Wind Speed</div>
-          <div class="card-body">
-          <a href="#">
-          <img src="/Resources/assets/images/Fig4.png" width=75% alt="latitude vs wind speed scatter plot">
-          </a>
-          </div>
-        </div>
-      </div>
-  </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
